@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ContextAPI } from '../src/ContextAPI/context';
+import intl from 'react-intl-universal';
+import Router from './router';
+
+const locales = {
+  'pt-BR': require('../src/locales/pt-BR.json'),
+  'en-US': require('../src/locales/en-US.json')
+};
 
 function App() {
+  // eslint-disable-next-line no-unused-vars
+  const [state, dispatch] = React.useContext(ContextAPI);
+  const { language } = state;
+
+  intl.init({
+    currentLocale: language,
+    locales
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router />
   );
 }
 

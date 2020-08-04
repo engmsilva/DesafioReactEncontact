@@ -1,0 +1,36 @@
+@import url('../../styles/root.css');
+
+.header_toolbar {
+  background: var(--menu-bg);
+  box-shadow: var(--shadow-1-down);
+}
+
+.options_toolbar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px 10px 30px;
+  height: 80px;
+  width: 100%;
+}
+
+.divider_content_toolbar {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.divider_toolbar {
+  margin: 0px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.controlpanel_toolbar {
+  justify-content: space-between;
+  align-items: center ;
+  padding: 10px 30px 10px 30px;
+  width: 100%;
+}
+
+.select_text_toolbar {
+  color: var(--primary-color)
+}

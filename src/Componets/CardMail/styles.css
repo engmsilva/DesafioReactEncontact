@@ -1,0 +1,69 @@
+@import url('../../styles/root.css');
+
+.content_cardmail {
+  align-items: center;
+  margin-bottom: 2px;
+  height: 110px;
+  width: 100%;
+  border: 1px solid var(--border-color-base);
+}
+
+.hover_cardmail_bg:hover {
+  background-color: var(--menu-bg);
+}
+
+.content_cardmail_bg {
+  background-color: var(--cascader-item-selected-bg);
+}
+
+.owner_cardmail {
+  justify-content: center;
+  padding: 10px;
+}
+
+/* .ant-avatar-group > span {
+  background: var(--background-avatar);
+} */
+
+.box_cardmail {
+  justify-content: space-between;
+  padding: 0px 20px 10px 5px;
+}
+
+.name_cardmail {
+font-weight: bold;
+}
+
+.name_cardmail_select {
+  font-weight: bold;
+  color: var(--secondary-color);
+  }
+
+.whatsapp_cardmail_select {
+  color: var(--secondary-color);
+  }
+
+.subject_cardmail {
+  font-weight: bold;
+  color: var(--primary-color);
+
+}
+
+.info_cardmail {
+  justify-content: flex-end;
+  height: 110px;
+  padding: 0px 20px 0px 20px;
+  pointer-events: none;
+}
+
+.info_cardmail_select {
+  color: var(--secondary-color);
+}
+
+.datetime_cardmail {
+  font-size: 12px;
+}
+
+.moment_cardmail {
+  font-size: 12px;
+}

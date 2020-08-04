@@ -1,0 +1,36 @@
+@import url('../../styles/root.css');
+
+.content_login {
+  min-height: 100vh;
+  background: var(--logo-bg);
+}
+
+.logo_login {
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 20px 0px;
+}
+
+.language-login {
+  justify-content: flex-end;
+  width: 100%;
+  padding: 20px 20px 60px 0px;
+}
+
+.logoSignup {
+  filter: var(--logo-color)
+}
+
+.card_login {
+  justify-content: center;
+  align-items: center;
+  background: var(--menu-bg);
+  padding: 0px 24px 0px 24px;
+}
+
+.title_card_login {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  padding: 20px 0px 20px 0px;
+}

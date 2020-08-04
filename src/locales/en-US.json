@@ -1,0 +1,36 @@
+{
+  "button": {
+    "LIGHT": "Light",
+    "DARK": "Dark",
+    "LANGUAGE": {"BR": "Portuguese", "EN": "English"},
+    "ASSING": "Assing",
+    "RECORD": "Record",
+    "SCHEDULE": "Schedule",
+    "NEW": "New",
+    "FAVORITE": "Favorite",
+    "PROFILE": "Profile",
+    "SETTING": "Setting",
+    "LOGOUT": "Logout",
+    "MESSAGE": "Message"
+  },
+  "CARDMAIL": {
+    "INBOX": "Inbox",
+    "DATE": "Today"
+  },
+  "URL": "enUS",
+  "SEARCH": "Input search text",
+  "EMPATYBOX": "Empaty Box",
+  "LOGIN": {
+    "TITLE": "My Account",
+    "USERNAME": "e-mail",
+    "PASSWORD": "Password",
+    "ACCESS": "Signup",
+    "ERRORS": {
+      "SIGNUP": "Invalid password or email.",
+      "EMPATYMAIL": "Please provide an email.",
+      "VALIDMAIL": "Please provide a valid email.",
+      "EMPATYPASSWORD": "Please provide an password.",
+      "VALIDPASSWORD": "The password must be at least 8 characters long."
+    }
+  }
+}

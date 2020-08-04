@@ -1,0 +1,17 @@
+@import url('../../styles/root.css');
+
+.content_layout {
+  height: 100vh;
+}
+
+.sider {
+  background:  var(--menu-bg);
+  height: 100vh;
+}
+
+.content {
+  padding: 10px 20px 0px 20px;
+  height: 79vh;
+  overflow: auto;
+}
+

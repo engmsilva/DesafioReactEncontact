@@ -1,0 +1,45 @@
+@import url('../../styles/root.css');
+
+.header_panel {
+  align-items: center;
+  height: 80px;
+  width: 100%;
+}
+
+.divider_content_panel {
+  padding-left: 20px;
+}
+
+.divider_panel {
+  margin: 0px;
+}
+
+.favorite_panel {
+  justify-content: center;
+  align-items: center ;
+  padding: 10px;
+  width: 100%;
+  height: 55px;
+}
+
+.favorite_badge_panel .ant-badge-count{
+  background-color: #fff;
+  color: #999;
+  box-shadow: 0 0 0 1px #d9d9d9 inset;
+}
+
+.message_icon_panel {
+  font-size: 18px;
+}
+
+.message_icon_panel:hover {
+  color: var(--primary-color);
+}
+
+.favorite_icon_panel {
+  font-size: 18px;
+}
+
+.favorite_icon_panel:hover {
+  color: var(--primary-color);
+}

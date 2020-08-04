@@ -1,0 +1,36 @@
+{
+  "button": {
+    "LIGHT": "Claro",
+    "DARK": "Escuro",
+    "LANGUAGE": {"BR": "Português", "EN": "Inglês"},
+    "ASSING": "Atribuir",
+    "RECORD": "Arquivar",
+    "SCHEDULE": "Agendar",
+    "NEW": "Novo",
+    "FAVORITE": "Favorito",
+    "PROFILE": "Perfil",
+    "SETTING": "Configurações",
+    "LOGOUT": "Sair",
+    "MESSAGE": "Menssagem"
+  },
+  "CARDMAIL": {
+    "INBOX": "Caixa de Entrada",
+    "DATE": "Hoje"
+  },
+  "URL": "ptBR",
+  "SEARCH": "Inserir um texto para pesquisa",
+  "EMPATYBOX": "Caixa Vazia",
+  "LOGIN": {
+    "TITLE": "Minha Conta",
+    "USERNAME": "e-mail",
+    "PASSWORD": "Senha",
+    "ACCESS": "Acessar",
+    "ERRORS": {
+      "SIGNUP": "Senha ou e-mail inválidos.",
+      "EMPATYMAIL": "Por favor fornece um e-mail.",
+      "VALIDMAIL": "Por favor fornece um e-mail válido.",
+      "EMPATYPASSWORD": "Por favor fornece uma senha.",
+      "VALIDPASSWORD": "A senha deve possuir no mínimo 8 caracteres."
+    }
+  }
+}
