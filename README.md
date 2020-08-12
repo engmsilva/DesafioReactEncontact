@@ -46,7 +46,7 @@ $ yarn global add serve
 Exportar caminho de instalação do servidor para variável de ambiente do sistema operacional.
 
 ```bash
-$ export PATH="$PATH:$(yarn global bin)" // exemplo usado no Ubunto
+$ export PATH="$PATH:$(yarn global bin)" // exemplo usado no Ubuntu
 ```
 Execute o servidor
 
