@@ -1,6 +1,6 @@
-## Desafio - Frontend.
+## PantheonBox - Frontend.
 
-O desafio consiste em criar uma pequena aplicação web, seguindo os itens abaixo:
+Pequena aplicação web, seguindo os itens abaixo:
 
 * Usar React JS.
 * Consumir dados de uma API.
